@@ -52,5 +52,5 @@ Learning: Improved understanding of Power BI filter context and interaction beha
 
 ![Dashboard Preview](https://github.com/amieecode/credit-card-weekly-status-analysis/blob/main/Image/credit%20card%202.png)
 
-## Contact
+Contact
 Feel free to connect or provide feedback!
