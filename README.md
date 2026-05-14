@@ -119,9 +119,9 @@ Solution: Integrated Client_Num into visuals to enable proper context transfer a
 Learning: Improved understanding of Power BI filter context and interaction behavior.
 
 ## Dashboard Overview
-![Dashboard Preview](https://github.com/amieecode/credit-card-weekly-status-analysis/blob/main/Image/credit%20card.png)
+![Dashboard Preview](https://github.com/data-by-kaka/credit-card-weekly-status-analysis/blob/main/Image/CreditCard.png)
 
-![Dashboard Preview](https://github.com/amieecode/credit-card-weekly-status-analysis/blob/main/Image/credit%20card%202.png)
+![Dashboard Preview](https://github.com/data-by-kaka/credit-card-weekly-status-analysis/blob/main/Image/CreditCard%202.png)
 
 ### Contact
 Feel free to connect or provide feedback!
