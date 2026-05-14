@@ -1,12 +1,25 @@
-# Credit Card Weekly Dashboard (Power BI)
+# Credit Card Weekly Analysis
 ## Project Overview
-This project focuses on analyzing customer profiles and credit card transaction behavior using Power BI. It features two interactive dashboards designed to provide both high-level insights and detailed analysis.
+I built two interactive Power BI dashboards to get a clear look at who's using credit cards and how they’re actually spending their money. By digging into demographics, income, and spending habits, I turned raw data into stories that show exactly how customers behave
+
+The dashboards were designed as part of a Power BI analytics project to demonstrate data modeling, DAX calculations, and dashboard storytelling skills.
 
 Dashboards Included
 - Customer Report Dashboard
 - Focuses on customer demographics, segmentation, and satisfaction metrics.
 - Transaction Report Dashboard
 - Focuses on revenue, transaction patterns, and week-over-week (WoW) performance.
+
+## Objectives
+- To visualize key customer metrics such as demographics, income, and card usage.
+- To analyze transaction trends by expenditure type, week, and card category.
+- To enable interactive exploration through filters and slicers for:
+  - Gender
+  - Age Group
+  - Income Group
+  - Card Category
+  - Transaction Week
+  - Expense Type
 
 ## Approach
 - Cleaned and transformed customer and transaction datasets
