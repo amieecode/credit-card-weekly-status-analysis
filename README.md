@@ -21,10 +21,19 @@ Dashboards Included
   - Transaction Week
   - Expense Type
 
-## Approach
-- Cleaned and transformed customer and transaction datasets
-- Built a data model using relationships based on Client_Num
-- Created calculated fields and measures using DAX
+## Data Modeling & Transformations
+- Performed data cleaning and transformation in Power Query.
+- Created a relationship between customer and transaction datasets using Customer_ID as the primary key.
+- created a datetable and link it to the transaction dataset
+- Created calculated columns and measures using DAX, including:
+  - Age Group
+  - Income Group
+  - Total Revenue
+  - Credit Usage %
+  - Week Number
+  - Current Week Revenue
+  - Previous Week Revenue
+  - WoW Growth %
 
 ## Key DAX Calculations
 - Age Group segmentation
@@ -42,23 +51,72 @@ Implemented dynamic filtering using slicers:
 - Card Category
 - Week Number
 
-## Key Insights
-- Customer distribution varies across income and age groups, highlighting distinct financial segments.
-- Spending behavior is concentrated in bills, fuel, and entertainment, indicating major revenue drivers.
-- Revenue shows fluctuations week-over-week due to missing weeks in the dataset.
-- Higher-income customers generally have higher credit limits.
-- Customer satisfaction scores provide insight into user experience across segments.
+Customer Analysis Dashboard
+Purpose: Understand customer distribution, income segmentation, and card preferences.
+
+Key Metrics:
+
+Total Customers
+Total Revenue
+Active Card Holders
+Average Credit Limit
+Average Credit Score
+Key Visuals:
+
+Total Customers by Age Group
+Total Customers by Gender
+Total Revenue by Gender
+Average Income by Customer_Job
+Average Credit Limit by Income Group
+Total Customers by Education Level
+Total Customers by Age Group and Gender
+Total Customers by Card Category
+Insights:
+
+Majority of customers are aged 36–55, with females (58%) dominating the user base.
+Blue cards are the most common category among customers.
+Businessmen and White-collar professionals earn the highest average income.
+High-income customers enjoy higher credit limits (~14K).
+Credit Card Transaction & Revenue Dashboard
+Purpose: Analyze revenue generation, spending categories, and transaction frequency trends.
+
+Key Metrics:
+
+Total Revenue
+Total Transactions
+Average Transaction
+Growth Percentage
+Key Visuals:
+
+Total Revenue by Month
+Average Utilization Ratio
+Total Transaction by use chip
+Total Revenue by Exp Type
+Sum of Total Transaciton Amount by Card Category
+Insights:
+
+Blue Card customers generate nearly 89% of total transactions.
+Bills, Entertainment, and Fuel** are the top spending categories.
+Online transactions are steadily increasing.
+Male customers contribute slightly higher total revenue, while female customers have a higher average income per transaction.
+Recommendations
+Reward the most active users.
+Grow the premium user base.
+Partner with top categories.
+Boost female spending.
+Promote online transactions.
+Target high earners.
+Fix spending dips.
+Results
+Built two fully interactive, visually clean Power BI dashboards.
+Improved understanding of data modeling, DAX, and Power BI storytelling.
+Learned how to create insight-driven visuals for business intelligence use cases
 
 ## Challenges & Solutions
 Drill-through Implementation
 Challenge: Drill-through was not initially working due to the missing Client_Num in the main visuals.
 Solution: Integrated Client_Num into visuals to enable proper context transfer and filtering.
 Learning: Improved understanding of Power BI filter context and interaction behavior.
-
-## Tools & Technologies
-- Power BI Desktop
-- DAX (Data Analysis Expressions)
-- Data Modeling & Visualization
 
 ## Dashboard Overview
 ![Dashboard Preview](https://github.com/amieecode/credit-card-weekly-status-analysis/blob/main/Image/credit%20card.png)
