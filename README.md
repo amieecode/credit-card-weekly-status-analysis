@@ -52,65 +52,70 @@ Implemented dynamic filtering using slicers:
 - Week Number
 
 Customer Analysis Dashboard
-Purpose: Understand customer distribution, income segmentation, and card preferences.
+Purpose: Understand customer distribution and income segmentation.
 
 Key Metrics:
+- Total Customers
+- Total Revenue
+- Average Interest Earned
+- Average Satisfaction Score
 
-Total Customers
-Total Revenue
-Active Card Holders
-Average Credit Limit
-Average Credit Score
 Key Visuals:
-
-Total Customers by Age Group
-Total Customers by Gender
-Total Revenue by Gender
-Average Income by Customer_Job
-Average Credit Limit by Income Group
-Total Customers by Education Level
-Total Customers by Age Group and Gender
-Total Customers by Card Category
+- Total Customers by Age Group
+- Total Customers by Income Group
+- Total Revenue by Gender
+- Average Income by Customer_Job
+- Total Customers by Education Level
+- Total Customers by Personal Loan
+- Total Customers by Marital Status
+  
 Insights:
+- The majority of customers are aged 36–55, with females (58%) dominating the user base.
+- Blue cards are the most common category among customers.
+- Businessmen and White-collar professionals earn the highest average income.
+- Graduates earn more, and a greater percentage of customers owe no Loan
+- A greater portion of the customers own no care(53%) and mostly are low income earners 
 
-Majority of customers are aged 36–55, with females (58%) dominating the user base.
-Blue cards are the most common category among customers.
-Businessmen and White-collar professionals earn the highest average income.
-High-income customers enjoy higher credit limits (~14K).
+
 Credit Card Transaction & Revenue Dashboard
 Purpose: Analyze revenue generation, spending categories, and transaction frequency trends.
 
 Key Metrics:
+- Total Revenue
+- Total Transactions
+- Total Interest Earned
+- Average Credit Limit
+- Growth Percentage
 
-Total Revenue
-Total Transactions
-Average Transaction
-Growth Percentage
 Key Visuals:
+- Revenue Trend Over Time
+- Total Revenue by Exp Type
+- Credit Limit by income type
+- Total Transaction by Card Usage
+- Total Transaction Amount by Card Category
+- Transaction Volume by Expense Type
 
-Total Revenue by Month
-Average Utilization Ratio
-Total Transaction by use chip
-Total Revenue by Exp Type
-Sum of Total Transaciton Amount by Card Category
 Insights:
+- Blue Card customers generate nearly 89% of total transactions.
+- Bills, Entertainment, and Fuel** are the top spending categories.
+- Online transactions are steadily increasing.
+- Male customers contribute slightly higher total revenue, while female customers have a higher average income per transaction.
+- High-income customers enjoy higher credit limits (~14K).
+- Most of the customer use Swipe in their transaction 
 
-Blue Card customers generate nearly 89% of total transactions.
-Bills, Entertainment, and Fuel** are the top spending categories.
-Online transactions are steadily increasing.
-Male customers contribute slightly higher total revenue, while female customers have a higher average income per transaction.
 Recommendations
-Reward the most active users.
-Grow the premium user base.
-Partner with top categories.
-Boost female spending.
-Promote online transactions.
-Target high earners.
-Fix spending dips.
-Results
-Built two fully interactive, visually clean Power BI dashboards.
-Improved understanding of data modeling, DAX, and Power BI storytelling.
-Learned how to create insight-driven visuals for business intelligence use cases
+1. Reward the most active users.
+2. Grow the premium user base.
+3. Partner with top categories.
+4. Boost female spending.
+5. Promote online transactions.
+6. Target high earners.
+7. Fix spending dips.
+
+### Results
+- Built two fully interactive, visually clean Power BI dashboards.
+- Improved understanding of data modeling, DAX, and Power BI storytelling.
+- Learned how to create insight-driven visuals for business intelligence use cases
 
 ## Challenges & Solutions
 Drill-through Implementation
