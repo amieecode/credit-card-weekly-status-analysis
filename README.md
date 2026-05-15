@@ -51,7 +51,7 @@ Implemented dynamic filtering using slicers:
 - Card Category
 - Week Number
 
-#### Customer Analysis Dashboard
+### Customer Analysis Dashboard
 
 Purpose: Understand customer distribution and income segmentation.
 
@@ -78,7 +78,7 @@ Purpose: Understand customer distribution and income segmentation.
 - A greater portion of the customers own no care(53%) and mostly are low income earners 
 
 
-#### Credit Card Transaction & Revenue Dashboard
+### Credit Card Transaction & Revenue Dashboard
 
 Purpose: Analyze revenue generation, spending categories, and transaction frequency trends.
 
