@@ -52,6 +52,7 @@ Implemented dynamic filtering using slicers:
 - Week Number
 
 Customer Analysis Dashboard
+
 Purpose: Understand customer distribution and income segmentation.
 
 Key Metrics:
@@ -78,6 +79,7 @@ Insights:
 
 
 Credit Card Transaction & Revenue Dashboard
+
 Purpose: Analyze revenue generation, spending categories, and transaction frequency trends.
 
 Key Metrics:
